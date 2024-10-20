@@ -7,18 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1722656F2CAED9CD00DB0161 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1722656E2CAED9CD00DB0161 /* Location.swift */; };
+		172265732CAEE76600DB0161 /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172265722CAEE76600DB0161 /* EditView.swift */; };
+		172DC24E2CC53D2D00CFD755 /* FileManager-DocumentsDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172DC24D2CC53D2D00CFD755 /* FileManager-DocumentsDirectory.swift */; };
+		173F6B6D2CC02844000E281B /* ContentView-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173F6B6C2CC02844000E281B /* ContentView-ViewModel.swift */; };
 		1741DA2E2C95F0C6000D1F6C /* Bucket_ListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1741DA2D2C95F0C6000D1F6C /* Bucket_ListApp.swift */; };
 		1741DA302C95F0C6000D1F6C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1741DA2F2C95F0C6000D1F6C /* ContentView.swift */; };
 		1741DA322C95F0C7000D1F6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1741DA312C95F0C7000D1F6C /* Assets.xcassets */; };
 		1741DA352C95F0C7000D1F6C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1741DA342C95F0C7000D1F6C /* Preview Assets.xcassets */; };
+		17F6C4542CB24E8D001DFC17 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F6C4532CB24E8D001DFC17 /* Result.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1722656E2CAED9CD00DB0161 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		172265722CAEE76600DB0161 /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
+		172DC24D2CC53D2D00CFD755 /* FileManager-DocumentsDirectory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileManager-DocumentsDirectory.swift"; sourceTree = "<group>"; };
+		172DC24F2CC5460000CFD755 /* Bucket-List-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Bucket-List-Info.plist"; sourceTree = SOURCE_ROOT; };
+		173F6B6C2CC02844000E281B /* ContentView-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-ViewModel.swift"; sourceTree = "<group>"; };
 		1741DA2A2C95F0C6000D1F6C /* Bucket List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bucket List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1741DA2D2C95F0C6000D1F6C /* Bucket_ListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bucket_ListApp.swift; sourceTree = "<group>"; };
 		1741DA2F2C95F0C6000D1F6C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1741DA312C95F0C7000D1F6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1741DA342C95F0C7000D1F6C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		17F6C4532CB24E8D001DFC17 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +46,8 @@
 		1741DA212C95F0C6000D1F6C = {
 			isa = PBXGroup;
 			children = (
+				173F6B6C2CC02844000E281B /* ContentView-ViewModel.swift */,
+				1722656E2CAED9CD00DB0161 /* Location.swift */,
 				1741DA2C2C95F0C6000D1F6C /* Bucket List */,
 				1741DA2B2C95F0C6000D1F6C /* Products */,
 			);
@@ -51,8 +64,12 @@
 		1741DA2C2C95F0C6000D1F6C /* Bucket List */ = {
 			isa = PBXGroup;
 			children = (
+				172DC24F2CC5460000CFD755 /* Bucket-List-Info.plist */,
 				1741DA2D2C95F0C6000D1F6C /* Bucket_ListApp.swift */,
 				1741DA2F2C95F0C6000D1F6C /* ContentView.swift */,
+				172DC24D2CC53D2D00CFD755 /* FileManager-DocumentsDirectory.swift */,
+				17F6C4532CB24E8D001DFC17 /* Result.swift */,
+				172265722CAEE76600DB0161 /* EditView.swift */,
 				1741DA312C95F0C7000D1F6C /* Assets.xcassets */,
 				1741DA332C95F0C7000D1F6C /* Preview Content */,
 			);
@@ -138,6 +155,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				1741DA302C95F0C6000D1F6C /* ContentView.swift in Sources */,
+				172DC24E2CC53D2D00CFD755 /* FileManager-DocumentsDirectory.swift in Sources */,
+				173F6B6D2CC02844000E281B /* ContentView-ViewModel.swift in Sources */,
+				17F6C4542CB24E8D001DFC17 /* Result.swift in Sources */,
+				1722656F2CAED9CD00DB0161 /* Location.swift in Sources */,
+				172265732CAEE76600DB0161 /* EditView.swift in Sources */,
 				1741DA2E2C95F0C6000D1F6C /* Bucket_ListApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,6 +291,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Bucket List/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Bucket-List-Info.plist";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Please authenticate yourself to unlock your places.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -297,6 +321,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Bucket List/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Bucket-List-Info.plist";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Please authenticate yourself to unlock your places.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
